@@ -1,6 +1,10 @@
 body{
-    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: rgba(224, 255, 255, 0.431);
     
+}
+p{
+    text-align: justify;
 }
 /* navbar styling */
 header{
@@ -49,7 +53,6 @@ button{
     border-radius: 20px;
     cursor: pointer;
     border: none;
-    margin-left: 20px;
     background-color:deepskyblue;
     transition-duration: all 0.4s ease 0s;
     color: white;
@@ -61,9 +64,13 @@ button:hover{
     transform: scale(1.1);
 }
 /* section part styling */
+.color{
+    color: orange;
+}
 h1{
     font-weight: 900;
     font-size: 40px;
+    color: rgb(65, 62, 62);
 }
 .container1{
     display: flex;
@@ -71,6 +78,9 @@ h1{
 }
 .main-img{
     padding-right: 50px;
+}
+.main-img:hover{
+    transform: scale(1.1);
 }
 .content{
     padding-left: 50px;
@@ -87,7 +97,6 @@ h1{
     margin: 50px;
 }
 .work-content{
-   
     padding: 50px;
     margin: 20px;
     justify-content: space-evenly;
@@ -99,10 +108,11 @@ h1{
     font-size: 27px;
 }
 .education{
-    background-color: rgb(206, 240, 240);
+    background-color: rgb(248, 244, 207);
 }
 .education:hover{
     transform: scale(1.1);
+    transition-duration: ease 4s;
 }
 .becoming-developer{
     background-color:rgb(250, 215, 221);
