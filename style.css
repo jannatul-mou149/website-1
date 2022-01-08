@@ -1,0 +1,118 @@
+body{
+    font-family: 'Luxurious Roman', cursive;
+    
+}
+/* navbar styling */
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 4%;
+    background-color: rgb(207, 227, 247);
+    
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    height: 60px;
+    width: 60px;
+    
+}
+.nav-links li{
+    padding: 0 20px;
+    display: inline-block;
+    
+    
+    
+}
+.nav-links {
+    list-style: none;
+}
+
+li, a, button{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.nav-links a{
+    transition-duration: all 0.4s ease 0s;
+}
+
+.nav-links li a:hover{
+    color:deepskyblue;
+ 
+}
+button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    margin-left: 20px;
+    background-color:deepskyblue;
+    transition-duration: all 0.4s ease 0s;
+    color: white;
+    
+}
+button:hover{
+    background-color:rgb(54, 99, 136);
+    color: white;
+    transform: scale(1.1);
+}
+/* section part styling */
+h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+.container1{
+    display: flex;
+   margin: 50px;
+}
+.main-img{
+    padding-right: 50px;
+}
+.content{
+    padding-left: 50px;
+    border-left: 7px solid steelblue;
+    border-image-slice: 1;
+    border-image: steelblue;
+    border-radius: 15px;   
+}
+/* showcase section part styling */
+.showcase{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin: 50px;
+}
+.work-content{
+   
+    padding: 50px;
+    margin: 20px;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+.work-content h2{
+    color:rgb(78, 91, 105);
+    font-weight: 900;
+    font-size: 27px;
+}
+.education{
+    background-color: rgb(206, 240, 240);
+}
+.education:hover{
+    transform: scale(1.1);
+}
+.becoming-developer{
+    background-color:rgb(250, 215, 221);
+}
+.becoming-developer:hover{
+    transform: scale(1.1);
+}
+.future-plan{
+    background-color:rgb(207, 227, 247);
+}
+.future-plan:hover{
+    transform: scale(1.1);
+}
